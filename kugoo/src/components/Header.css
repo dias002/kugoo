@@ -131,7 +131,10 @@ a {
     color: #5D6C7B;
     
 }
-
+.search-input:focus{
+    outline: none; /* Убирает обводку при фокусе */
+    border: none;
+}
 .search-button {
     padding: 0;
     width: 40px;
